@@ -6,6 +6,20 @@ Visualización de Alumnos desde el rol del Administrador con un  conteo que veri
 Visualización de Alumnos desde el rol del Maestro con un  conteo que verifica el numero de alumnos asignados a cada materia.
 Formularios con valores predeterminados que son los datos existentes para que si se desea editar una sola cosa no se tenga que llenar todo el formulario excepto la contraseña (obligatorio escribirla).
 
+Perfiles de prueba:
+Administrador:
+admin@admin
+admin
+
+Maestro:
+maestro@maestro
+maestro
+
+Alumno:
+alumno@cuatro
+cuatro
+
+
 
 
 Bienvenido al proyecto final del nivel 2. En este proyecto estaremos aplicando los conocimientos adquiridos a lo largo del nivel. Sigue las instrucciones de este archivo para completar el proyecto y ten en cuenta que estas mismas se tomarán en cuenta para la evaluación final del proyecto.

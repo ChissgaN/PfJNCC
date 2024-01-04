@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Principal Nav */
+.divMenu{
+    display: flex;
+    align-items: center;
+}
+
+.nave{
+    width: 85.3%;
+    height: 50px;
+    position: absolute;
+    left: 14.65%;
+    border-bottom: 1.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.menu{
+    margin-left: 40px;
+    color: gray;   
+}
+
+.menuA{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+}
+
+.home{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.dropA{
+    position: absolute;
+    right: 2%;
+    display: flex ;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.admiDrop{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.drop{
+    color: gray;
+}
+
+/* Side Bar*/
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(90, 88, 88);
+   
+}
+
+.logoDiv{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1.5px solid gray;
+    
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+
+}
+
+.uni{
+    color: white;
+    align-items: center;
+    margin: 0;
+}
+
+.admin{
+    width: 100%;
+    border-bottom: 1.5px solid gray;
+    color: white;
+    
+}
+
+.options{
+    list-style: none;
+    color: white;
+}
+
+.icons{
+    position: absolute;
+    left: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+.optionsA{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Inside */
+
+.inside{
+    width: 77%;
+    height: 70.5px;;
+    display: flex;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1;
+}
+
+.insideTwo{
+    display: flex;
+    align-items: center;
+}
+
+.hoDa{
+    text-decoration: none;
+    display: flex;
+}
+
+.pDa{
+    color: gray;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+/* */
+
+.allTable{
+    position: absolute;
+    width: 78%;
+    height: 70%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: white;
+    left: 19%;
+    top: 17%;
+}
+
+.divOp{
+    height: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.addClass{
+    height: 40px;
+}
+
+.divVar{
+    width: 260px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.dropVa{
+    position: absolute;
+}
+
+.bar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opVa{
+    text-decoration: none;
+    color: white;
+}
+
+.inSearch{
+    height: 25px;
+}
+
+.tableP{
+    width: 97%;   
+}
+
+.fileHead th,
+.fileBody td {
+    text-align: left;
+    padding: 10px;
+}
+
+.fileHead th {
+    background-color: #f5f5f5;
+}
+
+.fileBody td {
+    border-bottom: 1px solid #ddd;
+}
+
+.id, .idP, .clase, .claseP, .maestros, .maestrosP, .alumnos, .alumnosP, .date, .dateP, .asigna, .asignaP, .acciones, .accionesP {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.id, .clase, .maestros, .alumnos, .date, .asigna, .acciones{
+    border-top: 1px solid gray;
+}
+
+.id, .idP {
+    border-left: 1px solid gray;
+}
+
+#editPermi{
+    margin-left: 20px;
+}
+
+/* Footer */
+
+.ftr{
+    width: 85.3%;
+    height: 35px;
+    position: absolute;
+    background-color: white;
+    border-top: 1.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 14.65%;
+    bottom: 0%;
+    
+}
+
+/* Menu Toggle Styles */
+.menuToggle{
+    display: none;
+    width: 150px;
+    height: 90px;
+    list-style: none;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    right: 2%;
+
+    z-index: 2;
+}
+
+.iconsTg{
+    position: absolute;
+    left: 15px;
+    margin-right: 15px;
+}
+
+.optionsTg{
+    text-decoration: none;
+
+    z-index: 3;
+}
+
+.show{
+    display: block;
+    
+}
+
+/* Edit */
+.edit{
+    display: none;
+    width: 400px;
+    height: 410px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    top: 4%;
+    left: 37%;
+}
+
+.formuCre{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 25px;
+}
+
+.inpAdd{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+.showEditPermi{
+    display: block;
+}
+
+
